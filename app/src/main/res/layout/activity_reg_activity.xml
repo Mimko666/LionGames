@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:background="@color/screen_color2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/TextView_welcome_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="53dp"
+                android:text="@string/new_account"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="180dp"
+                android:text="@string/reg"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditText_login"
+                android:inputType="textEmailAddress"
+                android:layout_width="329dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="40dp"
+                android:drawableStart="@drawable/login"
+                android:drawablePadding="18dp"
+                android:background="@drawable/edit_text3"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|start"
+                android:hint="@string/log_or_mail"
+                android:ems="30"
+                android:paddingStart="34dp"
+                android:paddingEnd="34dp"
+                android:textSize="16sp"
+                android:textColor="@color/purple"
+                android:textColorHint="@color/purple"
+                android:textAllCaps="false"
+                android:autofillHints="username" />
+
+            <EditText
+                android:id="@+id/EditText_password"
+                android:inputType="textPassword"
+                android:layout_width="329dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="18dp"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="18dp"
+                android:background="@drawable/edit_text_password3"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|start"
+                android:hint="@string/password"
+                android:ems="30"
+                android:paddingStart="34dp"
+                android:paddingEnd="34dp"
+                android:textSize="16sp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:autofillHints="password" />
+
+            <EditText
+                android:id="@+id/EditText_password2"
+                android:inputType="textPassword"
+                android:layout_width="329dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="18dp"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="18dp"
+                android:background="@drawable/edit_text_password2"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|start"
+                android:hint="@string/password2"
+                android:ems="30"
+                android:paddingStart="34dp"
+                android:paddingEnd="34dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textAllCaps="false"
+                android:autofillHints="password" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_sign_in_2"
+                android:onClick="next5"
+                android:layout_width="175dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30.25dp"
+                android:text="@string/button_next"
+                android:textColor="@color/purple"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/button_send" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/TextView_already_have_an_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:minHeight="48dp"
+                    android:text="@string/already_have_an_account"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:id="@+id/TextView_come_back"
+                    android:onClick="back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="60dp"
+                    android:minHeight="48dp"
+                    android:text="@string/come_back"
+                    android:textColor="@color/blue"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

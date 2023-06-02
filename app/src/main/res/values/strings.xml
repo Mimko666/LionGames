@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LionGames</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="button_sign">Войдите в аккаунт</string>
+    <string name="button_register">Зарегистрироваться</string>
+    <string name="welcome_back">С возвращением!</string>
+    <string name="sign_in">Войти</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="password2">Подтверждение пароля</string>
+    <string name="button_next">Продолжить</string>
+    <string name="forgot_your_password">Забыли пароль?</string>
+    <string name="restore_password">Восстановить пароль</string>
+    <string name="new_account">Создайте аккаунт</string>
+    <string name="reg">Зарегистрируйтесь</string>
+    <string name="log_or_mail">Логин или email</string>
+    <string name="already_have_an_account">Уже есть аккаунт?</string>
+    <string name="come_back">Вернуться назад</string>
+    <string name="password_recovery">Восстановление пароля</string>
+    <string name="password_recovery_info">Пожалуйста, введите логин или эл.почту, на которые был зарегистрирован аккаунт</string>
+    <string name="button_send">Отправить</string>
+    <string name="return_back">Вернуться</string>
+    <string name="password_sent">Пароль отправлен!</string>
+    <string name="recovery_info">Проверьте электронную почту</string>
+    <string name="patch_info">Упс...экран в разработке</string>
+    <string name="title_activity_signin">SigninActivity</string>
+    <string name="galochka_ok">Все прошло успешно!</string>
+</resources>
